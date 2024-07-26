@@ -4260,6 +4260,12 @@ textarea.form-control-lg {
   margin-left: calc(-0.5 * var(--bs-card-cap-padding-x));
 }
 
+.card-hover-effect {
+  transition: transform 0.3s, background-color 0.3s;
+  transform: scale(1.05);
+  background-color: #f8f9fa;
+}
+
 .card-img-overlay {
   position: absolute;
   top: 0;
